@@ -27,4 +27,4 @@ I may release a few tweaks, keep an eye on the commits.
 Nex4iz - Nulling Website
 EmuDevs - Registration Page
 Brian8544 - Editing Site
-Tok124 & Surrenderat20 - Working Counters Fix
+

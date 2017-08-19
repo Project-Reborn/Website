@@ -1,0 +1,5 @@
+//Rewrite to www
+Options +FollowSymLinks -Indexes
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^project-reborn.com[nc]
+RewriteRule ^(.*)$ http://www.project-reborn.com/$1 [r=301,nc]
