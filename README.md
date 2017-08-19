@@ -24,7 +24,11 @@ I may release a few tweaks, keep an eye on the commits.
 
 ## Credits
 
-Nex4iz - Nulling Website
-EmuDevs - Registration Page
-Brian8544 - Editing Site
+Nex4iz - Nulling Website  
+
+EmuDevs - Registration Page  
+
+Brian8544 - Editing Site  
+
+Tok124 & surrenderat20 - Fixing Counters
 
