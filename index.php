@@ -429,7 +429,7 @@ Registration: EmuDevs
                             <div class="nk-counter-3">
                               <div class="nk-count"> <!-- DATABASE CONFIG 1 -->
 								<?php
-								$link = mysql_connect("localhost", "root", "ascent"); 
+								$link = mysql_connect("127.0.0.1", "root", "ascent"); 
 								mysql_select_db("auth", $link);
 								$result = mysql_query("SELECT * FROM account", $link);
 								$num_rows = mysql_num_rows($result);
@@ -444,7 +444,7 @@ Registration: EmuDevs
                     </div>
                     <div class="col-md-4">
                         <div class="nk-box-2 nk-box-line">
-                            <!-- START: Counter -->
+                            <!-- START: Counter 2: Total Online -->
                             <div class="nk-counter-3">
                                 <div class="nk-count"> <!-- DATABASE CONFIG 2 -->
 								<?php 
@@ -463,7 +463,7 @@ Registration: EmuDevs
 								$stmt->store_result(); 
 									if($stmt->num_rows > 0) { 
 										while($stmt->fetch()) { 
-											echo $charname; 
+											echo $stmt->num_rows;
 																} 
 								} 
 								?>
@@ -471,7 +471,7 @@ Registration: EmuDevs
                                 <h3 class="nk-counter-title h4">Currently Online</h3>
                                 <div class="nk-gap-1"></div>
                             </div>
-                            <!-- END: Counter -->
+                            <!-- END: Counter 2: Total Online -->
                         </div>
                     </div>
                     <div class="col-md-4">
