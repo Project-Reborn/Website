@@ -8,7 +8,4 @@
 
 - Things to be FIXED - 
 
-+ When changing *.html to *.php - prevents loading site. Stays stuck at "logo loading screen" (SHOULD BE FIXED?!
-+ Let stats load from actual DB and not placeholder
-+ Fix "Currently Online"
 + Fix "Highest population online at the same time across all servers"
