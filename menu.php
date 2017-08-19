@@ -19,37 +19,33 @@
 
                     <ul class="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
                         <li class="active  ">
-                            <a href="index.php">
+                            <a href="/index.php">
                 Home</a>
                         </li>
+						
                         <li class="  nk-drop-item">
                             <a href=>
                 Account</a>
+				
                             <ul class="dropdown">
-                                <li class="  nk-drop-item">
-                                    <a href="">
-                World of Warcraft</a>
+                                <li class="">
+                                    <a href="/account/register/">
+									Create an Account</a>
+				
+									<a href="/account/login">
+									Login</a>
                                     <ul class="dropdown">
-                                     <!--   <li class="  ">
-                                            <a href="layout-nav-default.php">
-                Vanilla (Soon?)</a>
-                                        </li>
-                                        <li class="  ">
-                                            <a href="layout-nav-default-transparent.php">
-                The Burning Crusade (Soon?)</a> -->
-                                        </li>
-                                        <li class="  ">
-                                            <a href="account/register/">
-                Wrath of the Lich King</a>
-                                        </li>
-                                                                           </ul>
+									</ul>
+									
+									
+								
                                 </li>
                             <li class="  nk-drop-item">
                                 </li>
                             </ul>
                         </li>
                         <li class="">
-                            <a href="download.php">
+                            <a href="/download.php">
                 Download</a>
                             <div class="">
                                     <ul>
@@ -63,7 +59,7 @@
                 Community</a>
                             <ul class="dropdown">
                                 <li class="  ">
-                                    <a href="forum.php">
+                                    <a href="/forum.php">
                 Forums</a>
                                 </li>
                                 <li class="  ">
@@ -73,8 +69,8 @@
                             </ul>
                         </li>
                         <li class="">
-                            <a href="store.php">
-                Store</a>
+                            <a href="/information.php">
+                Information</a>
 
                         </li>
                         <li class="  nk-drop-item">
@@ -98,7 +94,7 @@
                             </ul>
                         </li>
                         <li class="  ">
-                            <a href="bugtracker.php">
+                            <a href="/bugtracker.php">
                 BugTracker</a>
                         </li>
                     </ul>
