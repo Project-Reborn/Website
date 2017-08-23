@@ -315,12 +315,25 @@ Registration: EmuDevs
                             <!-- START: Counter 1: Total Created Accounts -->
                             <div class="nk-counter-3">
                               <div class="nk-count"> <!-- DATABASE CONFIG 1 -->
-								<?php
-								$link = mysql_connect("127.0.0.1", "root", "ascent"); 
-								mysql_select_db("auth", $link);
-								$result = mysql_query("SELECT * FROM account", $link);
-								$num_rows = mysql_num_rows($result);
-								echo "$num_rows";
+								<?php 
+								$host = "127.0.0.1"; 
+								$dbuser = "root"; 	
+								$dbpass = "ascent"; 
+								$dbname = "auth"; 
+								$conn = mysqli_connect($host, $dbuser, $dbpass, $dbname); 
+
+								$status= 1; 
+
+								$stmt = $conn->prepare("SELECT * FROM account"); 
+								$stmt->bind_param("i", $status); 
+								$stmt->execute(); 
+								$stmt->bind_result($charname); 
+								$stmt->store_result(); 
+									if($stmt->num_rows > 0) { 
+										while($stmt->fetch()) { 
+											echo $stmt->num_rows;
+																} 
+								} 
 								?>
                               </div>
                                 <h3 class="nk-counter-title h4">Total Created Accounts</h3>
