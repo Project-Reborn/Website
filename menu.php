@@ -65,7 +65,11 @@
                                 <li class="  ">
                                     <a href="https://discord.gg/5GDExP3">
                 Discord</a>
-                                </li>                              
+                                </li>
+                                <li class="  ">
+                                    <a href="/bugtracker.php">
+                BugTracker</a>
+                                </li>  								
                             </ul>
                         </li>
                         <li class="">
@@ -92,10 +96,6 @@
                                 </li>
 
                             </ul>
-                        </li>
-                        <li class="  ">
-                            <a href="/bugtracker.php">
-                BugTracker</a>
                         </li>
                     </ul>
 
