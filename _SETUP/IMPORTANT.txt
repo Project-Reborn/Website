@@ -1,0 +1,3 @@
+Remove _SETUP folder after having everything to your liking!
+
+Do you have any problems? Please visit our GitHub wiki.
