@@ -9,11 +9,6 @@ Then I decided to turn it into WoW registration site.
 
 WIKI: https://github.com/Project-Reborn/Website/wiki
 
-Installation is pretty easy, copy all the files into your 'htdocs' or 'www' folder. 
-After doing that, head over to index.php to match the settings with your databases.
-
-Want a forum? Paste your phpbb, mybb, vbulletin or something else into the \forum folder. I advice using mybb!
-
 ## Contribute
 
 Want to contribute? Send a commit! :)
@@ -30,5 +25,9 @@ EmuDevs - Registration Page
 
 Brian8544 - Editing Site  
 
-Tok124 & surrenderat20 - Fixing Counters
+Tok124 & surrenderat20 - Fixing Counters  
+
+FlySpray - BugTracker
+
+
 
