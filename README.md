@@ -1,6 +1,7 @@
 # ![logo](http://i.imgur.com/FEbMK2p.png) Project-Reborn Site
 
 ## Introduction
+## Interesting Things.............
 
 My friend is into 'nulling' websites, later on gave the files to me. 
 Then I decided to turn it into WoW registration site.
